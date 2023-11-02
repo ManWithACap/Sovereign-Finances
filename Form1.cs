@@ -1,10 +1,15 @@
 namespace SovereignFinances
 {
-    public partial class Form1 : Form
+    public partial class SFT_Form : Form
     {
-        public Form1()
+        public SFT_Form()
         {
             InitializeComponent();
+        }
+
+        private void SFT_Form_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
